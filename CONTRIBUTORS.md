@@ -282,4 +282,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to Cesiu
 - [Benjamin Abb](https://github.com/benjaminabb)
 - [Victor Turansky](https://github.com/turansky)
 - [Will Jadkowski](https://github.com/willjad)
-- [Mac Clayton](https://github.com/mclayton7)
