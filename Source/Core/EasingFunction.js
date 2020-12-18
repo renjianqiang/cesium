@@ -1,5 +1,4 @@
 import Tween from "../ThirdParty/Tween.js";
-import deprecationWarning from "./deprecationWarning.js";
 
 /**
  * Easing functions for use with TweenCollection.  These function are from
@@ -23,64 +22,21 @@ var EasingFunction = {
    * @type {EasingFunction.Callback}
    * @constant
    */
-  QUADRATIC_IN: Tween.Easing.Quadratic.In,
+  QUADRACTIC_IN: Tween.Easing.Quadratic.In,
   /**
    * Quadratic out.
    *
    * @type {EasingFunction.Callback}
    * @constant
    */
-  QUADRATIC_OUT: Tween.Easing.Quadratic.Out,
+  QUADRACTIC_OUT: Tween.Easing.Quadratic.Out,
   /**
    * Quadratic in then out.
    *
    * @type {EasingFunction.Callback}
    * @constant
    */
-  QUADRATIC_IN_OUT: Tween.Easing.Quadratic.InOut,
-
-  /**
-   * Quadratic in.
-   *
-   * @type {EasingFunction.Callback}
-   * @constant
-   * @deprecated This enum has been deprecated and will be removed in Cesium ????. Use {@link EasingFunction.QUADRATIC_IN} instead.
-   */
-  get QUADRACTIC_IN() {
-    deprecationWarning(
-      "QUADRACTIC_IN",
-      "QUADRACTIC_IN is deprecated and will be removed in Cesium ????. Use QUADRATIC_IN instead."
-    );
-    return Tween.Easing.Quadratic.In;
-  },
-  /**
-   * Quadratic out.
-   *
-   * @type {EasingFunction.Callback}
-   * @constant
-   * @deprecated This enum has been deprecated and will be removed in Cesium ????. Use {@link EasingFunction.QUADRATIC_OUT} instead.
-   */
-  get QUADRACTIC_OUT() {
-    deprecationWarning(
-      "QUADRACTIC_OUT",
-      "QUADRACTIC_OUT is deprecated and will be removed in Cesium ????. Use QUADRATIC_OUT instead."
-    );
-    return Tween.Easing.Quadratic.Out;
-  },
-  /**
-   * Quadratic in then out.
-   *
-   * @type {EasingFunction.Callback}
-   * @constant
-   * @deprecated This enum has been deprecated and will be removed in Cesium ????. Use {@link EasingFunction.QUADRATIC_IN_OUT} instead.
-   */
-  get QUADRACTIC_IN_OUT() {
-    deprecationWarning(
-      "QUADRACTIC_IN_OUT",
-      "QUADRACTIC_IN_OUT is deprecated and will be removed in Cesium ????. Use QUADRATIC_IN_OUT instead."
-    );
-    return Tween.Easing.Quadratic.InOut;
-  },
+  QUADRACTIC_IN_OUT: Tween.Easing.Quadratic.InOut,
 
   /**
    * Cubic in.
